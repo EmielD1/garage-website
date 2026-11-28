@@ -109,7 +109,7 @@ The author of a pull request merges it when all of this is true:
 
 We ask a teammate for a review when the author is not sure of a change.
 
-TODO: 
+TODO: We test every change on the preview website before merging and make sure the main user tasks still work.
 
 ## The AI note
 
@@ -157,12 +157,7 @@ and update this agreement.
 **Guidance.** Write one row per member: their first name or GitHub username, and the date they
 agreed. The date of the meeting where you wrote the agreement is fine. Add a row for each further
 member. Update the agreement when a member leaves or joins, or when the roles change.
-Emiel:28 november 2026
-Leon: 28 november 2026
-Rune: 28 november 2026
-Kobe: 28 november 2026
-Timo: 28 november 2026
-Mathis: 28 november 2026
+
 
 **Example:** Aya, 2 March 2026.
 
@@ -170,7 +165,9 @@ Mathis: 28 november 2026
 
 | Member | Date |
 | --- | --- |
-| TODO: name | TODO: date |
-| TODO: name | TODO: date |
-| TODO: name | TODO: date |
-| TODO: name | TODO: date |
+| TODO: Emiel | TODO:28 november 2026 |
+| TODO: Rune | TODO: 28 november 2026 |
+| TODO: Leon | TODO: 28 november 2026 |
+| TODO: Mathis | TODO: 28 november 2026 |
+| TODO: Timo | TODO: 28 november 2026 |
+| TODO: Kobe | TODO: 28 november 2026 |
