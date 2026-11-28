@@ -3,7 +3,7 @@
 The short description of your site: who it is for and what it does. Its reader has never seen your
 site, so write what a stranger needs to understand it. Keep the brief
 to one page; the details belong in `docs/requirements.md`.
-Written by: Emiel, Leon, Kobe, Timo, Mathis and Rune
+Written by: Emiel
 **How to fill in this file**
 
 - Write your own text in the lines and tables under each grey box.
