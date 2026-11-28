@@ -36,7 +36,7 @@ export default async function ClinicsPage() {
       {clinics.length === 0 ? (
         <Notice tone="warning" label="Our services" className="max-w-3xl">
           <p className="font-heading text-xl font-extrabold">Professional car maintenance and repairs</p>
-          <p>Contact us to discuss your car's needs and arrange an appointment.</p>
+          <p>Contact us to discuss your car&apos;s needs and arrange an appointment.</p>
         </Notice>
       ) : (
         <ul className="grid max-w-3xl gap-block">
