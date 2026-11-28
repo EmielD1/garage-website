@@ -8,7 +8,7 @@
 //
 //   richText([
 //     { heading: 'Where' },
-//     { paragraph: 'Workshop B, Student Centre.' },
+//     { paragraph: Tweekerkenstraat 2, 9000 Gent, Belgium' },
 //     { list: ['Tools', 'A tutor'] },
 //     { paragraph: ['Read ', { text: 'the licence', url: 'https://creativecommons.org/licenses/by-sa/4.0/' }, '.'] },
 //   ])
