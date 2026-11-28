@@ -49,7 +49,7 @@ first task: reserve a seat at an event.
 | Design and accessibility | Mathis | Rune |
 | Research and testing | Rune | Mathis |
 
-- **How we share the roles:** TODO: "As the course's default for our team size", or how you do it differently, and why
+- **How we share the roles:** We follow the course's default for our team size. Each member has one role and works in a pair. We divide the work fairly and help each other when necessary.
 
 ## How we communicate
 
@@ -129,7 +129,7 @@ Every pull request has the section *AI note: what I asked AI, and what I checked
 heading. The note is one or two lines and has two parts: *What I asked AI* and *What I checked*. When
 no AI tool was used, the note says "No AI used".
 
-- **How we check what an AI tool wrote before we use it:** TODO: We check AI-generated content ourselves, make sure it is correct and understand the changes before using them in our project.
+- **How we check what an AI tool wrote before we use it:** We check AI-generated content ourselves, make sure it is correct and understand the changes before using them in our project.
 
 ## When someone stops contributing
 
