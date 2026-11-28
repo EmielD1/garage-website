@@ -42,12 +42,12 @@ first task: reserve a seat at an event.
 
 | Role | Member | Works in a pair with |
 | --- | --- | --- |
-| Releases and repository | TODO: name | TODO: name |
-| Content model and data | TODO: name | TODO: name |
-| The informational task | TODO: name | TODO: name |
-| The transactional task | TODO: name | TODO: name |
-| Design and accessibility | TODO: name | TODO: name |
-| Research and testing | TODO: name | TODO: name |
+| Releases and repository | TODO: Emiel | TODO: name |
+| Content model and data | TODO: Leon | TODO: name |
+| The informational task | TODO: Kobe | TODO: name |
+| The transactional task | TODO: Timo | TODO: name |
+| Design and accessibility | TODO: Mathis | TODO: name |
+| Research and testing | TODO: Rune | TODO: name |
 
 - **How we share the roles:** TODO: "As the course's default for our team size", or how you do it differently, and why
 
