@@ -18,7 +18,7 @@ const CLINIC_IMAGE = 'clinic-tools'
 
 export const metadata: Metadata = {
   title: 'Repair clinic',
-  description: 'Book a time slot at the Campus Cycle repair clinic and bring your bicycle for a check or a repair.',
+  description: 'Book a time slot at the Garage Website repair clinic and bring your bicycle for a check or a repair.',
 }
 
 export default async function ClinicsPage() {

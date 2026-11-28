@@ -1,4 +1,4 @@
-// The seed: puts the Campus Cycle example content into a new site's database, so the site has real
+// The seed: puts the Garage Website example content into a new site's database, so the site has real
 // pages and images to show from its very first day.
 //
 // It adds the example content ONCE PER DATABASE. After a run that finished without an error, it notes
@@ -34,7 +34,7 @@ import { CAMPUS_CYCLE, MADE_UP_DATA_NOTICE } from '../content/campus-cycle'
 import { PlainError } from '../lib/plainError'
 import { richText } from './richText'
 
-// true: a new site starts with the Campus Cycle example. Set it to false before your first deploy to
+// true: a new site starts with the Garage Website example. Set it to false before your first deploy to
 // start from an empty site (only the first editor is created) and add your own content in /admin. After
 // your first deploy, changing it changes nothing: delete the example records in /admin instead (they
 // do not come back).
@@ -86,23 +86,23 @@ const PHOTO_CREDITS = [
 
 export const PAGES = [
   {
-    title: 'Campus Cycle',
+    title: 'Garage Website',
     slug: 'home',
     // No word about the clinic's times here: it is not in the seed, and until you add it the home page
     // says "The repair clinic opens soon".
     intro:
-      'Campus Cycle is the bicycle repair service at the college. Bring your bicycle for a check or a repair.',
+      'Garage Website offers professional car maintenance and repairs to keep your vehicle safe and reliable.',
     // No body: everything else on the home page comes from its own record: the clinic, and the pricing
     // rule from the Site facts global.
   },
   {
-    title: 'About Campus Cycle',
+    title: 'About Garage Website',
     slug: 'about',
     intro: 'Who we are, what we do and where to find us.',
     body: richText([
       {
         paragraph:
-          'Campus Cycle is a fictional bicycle repair service at a college. Two staff members run it.',
+          'Garage Website provides reliable car maintenance and repairs. Our team is committed to quality service and helping you keep your car in excellent condition.',
       },
       { heading: 'Checks and repairs' },
       // No times here: the clinic's own page shows them from its record, once it is open.
@@ -190,7 +190,7 @@ function sameImage(stored: string | null | undefined, wanted: string): boolean {
 }
 
 /**
- * Adds the Campus Cycle example content that is missing, and leaves everything that exists alone.
+ * Adds the Garage Website example content that is missing, and leaves everything that exists alone.
  * Returns how many records it created and how many it found already there.
  *
  * `env` is where it looks for VERCEL and BLOB_READ_WRITE_TOKEN (normally process.env; a test can pass

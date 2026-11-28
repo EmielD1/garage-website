@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   // after it (src/content/campus-cycle.ts, SITE_TITLE).
   title: SITE_TITLE,
   description:
-    'Campus Cycle: bicycle maintenance workshops and a repair clinic at the college. A fictional example site for the course Building better websites.',
+    'Garage Website: professional car maintenance, repairs and reliable service for your vehicle.',
 }
 
 export default function SiteLayout({ children }: { children: ReactNode }) {
