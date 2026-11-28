@@ -42,12 +42,12 @@ first task: reserve a seat at an event.
 
 | Role | Member | Works in a pair with |
 | --- | --- | --- |
-| Releases and repository | TODO: Emiel | TODO: name |
-| Content model and data | TODO: Leon | TODO: name |
-| The informational task | TODO: Kobe | TODO: name |
-| The transactional task | TODO: Timo | TODO: name |
-| Design and accessibility | TODO: Mathis | TODO: name |
-| Research and testing | TODO: Rune | TODO: name |
+| Releases and repository |  Emiel | Leon |
+| Content model and data | Leon | Emiel|
+| The informational task | Kobe | Timo |
+| The transactional task |  Timo | Kobe |
+| Design and accessibility | Mathis | Rune |
+| Research and testing | Rune | Mathis |
 
 - **How we share the roles:** TODO: "As the course's default for our team size", or how you do it differently, and why
 
@@ -64,10 +64,10 @@ chat.
 
 </td></tr></table>
 
-- **Where we talk:** TODO: We use Microsoft Teams for project-related communication and sharing important information. WhatsApp is used for quick messages.
-- **How quickly we answer a teammate:** TODO:As fast as possible
-- **When and how long we meet:** TODO: Every saturday from 9am-11am
-- **Where we write down what we agreed:** TODO: We write down important agreements and decisions in Microsoft Teams so everyone can find them.
+- **Where we talk:**  We use Microsoft Teams for project-related communication and sharing important information. WhatsApp is used for quick messages.
+- **How quickly we answer a teammate:** As fast as possible
+- **When and how long we meet:** Every saturday from 9am-11am
+- **Where we write down what we agreed:** We write down important agreements and decisions in Microsoft Teams so everyone can find them.
 
 ## How we decide
 
@@ -81,10 +81,10 @@ team. If we cannot agree in one meeting, the role holder decides and writes a de
 
 </td></tr></table>
 
-- **What a role holder decides alone:** TODO:The role holder can make small decisions within their own role and informs the rest of the team.
-- **What needs the pair:** TODO:Decisions about a specific task or part of the website are discussed with the pair responsible for that task.
-- **What needs the whole team:** TODO: Important changes to the website, the user tasks or the project brief are discussed with the whole team.
-- **How we settle a disagreement, and when we write a decision record:** TODO:We discuss disagreements together and try to reach a compromise. Important decisions are written down in Microsoft Teams.
+- **What a role holder decides alone:** The role holder can make small decisions within their own role and informs the rest of the team.
+- **What needs the pair:** Decisions about a specific task or part of the website are discussed with the pair responsible for that task.
+- **What needs the whole team:** Important changes to the website, the user tasks or the project brief are discussed with the whole team.
+- **How we settle a disagreement, and when we write a decision record:** We discuss disagreements together and try to reach a compromise. Important decisions are written down in Microsoft Teams.
 
 ## When a pull request is done
 
@@ -109,7 +109,7 @@ The author of a pull request merges it when all of this is true:
 
 We ask a teammate for a review when the author is not sure of a change.
 
-TODO: We test every change on the preview website before merging and make sure the main user tasks still work.
+We test every change on the preview website before merging and make sure the main user tasks still work.
 
 ## The AI note
 
@@ -145,9 +145,9 @@ and update this agreement.
 
 </td></tr></table>
 
-- **What counts as stopping for us:** TODO: A member does not respond for three working days or misses an agreed deadline without informing the team.
-- **What the pair does first:** TODO:The pair partner contacts the member directly and asks if there is a problem or if help is needed.
-- **What the whole team does next:** TODO: If the problem continues, the whole team discusses it and redistributes the tasks if necessary, with new deadlines.
+- **What counts as stopping for us:** A member does not respond for three working days or misses an agreed deadline without informing the team.
+- **What the pair does first:** The pair partner contacts the member directly and asks if there is a problem or if help is needed.
+- **What the whole team does next:** If the problem continues, the whole team discusses it and redistributes the tasks if necessary, with new deadlines.
 - **How we record what happened:** We change this agreement when we share the roles or the work again.
 
 ## Agreed by
@@ -165,9 +165,9 @@ member. Update the agreement when a member leaves or joins, or when the roles ch
 
 | Member | Date |
 | --- | --- |
-| TODO: Emiel | TODO:28 november 2026 |
-| TODO: Rune | TODO: 28 november 2026 |
-| TODO: Leon | TODO: 28 november 2026 |
-| TODO: Mathis | TODO: 28 november 2026 |
-| TODO: Timo | TODO: 28 november 2026 |
-| TODO: Kobe | TODO: 28 november 2026 |
+|  Emiel | 28 november 2026 |
+| Rune |  28 november 2026 |
+|  Leon |  28 november 2026 |
+|  Mathis |28 november 2026 |
+|  Timo |  28 november 2026 |
+| Kobe | 28 november 2026 |
