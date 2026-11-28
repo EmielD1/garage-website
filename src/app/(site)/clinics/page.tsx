@@ -7,37 +7,36 @@ import { ButtonLink } from '@/components/site/ButtonLink'
 import { FramedCard } from '@/components/site/FramedCard'
 import { Notice } from '@/components/site/Notice'
 import { PageTitle } from '@/components/site/PageTitle'
-import { formatWhen, imageFrom } from '@/lib/format'
+import { formatWhen } from '@/lib/format'
 import config from '@/payload.config'
 
 export const dynamic = 'force-dynamic'
 
-// The clinic's picture, from the media library (the seed uploads it). To use another one, upload it
-// in /admin and put its file name here.
-const CLINIC_IMAGE = 'clinic-tools'
+
+
 
 export const metadata: Metadata = {
-  title: 'Repair clinic',
-  description: 'Book a time slot at the Garage Website repair clinic and bring your bicycle for a check or a repair.',
+  title: 'Maintenance & Repairs',
+ description: 'Discover the car maintenance and repair services offered by Garage Website.',
 }
 
 export default async function ClinicsPage() {
   const payload = await getPayload({ config })
   // Newest first: the clinic added last is usually the one that is on now.
   const clinics = (await payload.find({ collection: 'clinics', sort: '-createdAt', depth: 0, limit: 20 })).docs
-  const picture = (await payload.find({ collection: 'media', where: { filename: { contains: CLINIC_IMAGE } }, limit: 1 })).docs[0]
+  
 
   return (
     <div className="pb-6">
       <PageTitle
-        title="Repair clinic"
-        intro="Bring your bicycle to the clinic for a check or a repair. Book a time slot first, so we are ready for you."
-        image={imageFrom(picture)}
+        title="Maintenance & Repairs"
+        intro="Discover our car maintenance and repair services. We help you keep your car safe and reliable."
+        
       />
       {clinics.length === 0 ? (
-        <Notice tone="warning" label="Not open yet" className="max-w-3xl">
-          <p className="font-heading text-xl font-extrabold">The repair clinic opens soon</p>
-          <p>When it opens, you can book a time slot on this page and bring your bicycle for a check or a repair.</p>
+        <Notice tone="warning" label="Our services" className="max-w-3xl">
+          <p className="font-heading text-xl font-extrabold">Professional car maintenance and repairs</p>
+          <p>Contact us to discuss your car's needs and arrange an appointment.</p>
         </Notice>
       ) : (
         <ul className="grid max-w-3xl gap-block">
