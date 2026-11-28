@@ -54,7 +54,7 @@ count them at two events.
 | Kind of user | What they come to do | What they have when it is done |
 | --- | --- | --- |
 | Car owner | Book an appointment for car maintenance or repairs. | An appointment booking and confirmation.|
-| Car owner | Find the appropriate service for their car problem. | Find the appropriate service for their car problem. |
+| Car owner | Find the appropriate service for their car problem. | Information about the relevant service and what the garage offers.  |
 
 | Comparable site (its address) | Date we looked | One thing we learned from it |
 | --- | --- | --- |
@@ -91,7 +91,7 @@ tells the library how many people are coming.
 1. **Task 1 (the primary task):** A customer books an appointment for car maintenance.
    - **Type:** Transactional
    - **Outcome:** The customer successfully books an available time slot and receives confirmation.
-   - **When it fails:** TThe customer cannot reserve an appointment online and must contact the garage another way.
+   - **When it fails:** The customer cannot reserve an appointment online and must contact the garage another way.
 2. **Task 2:** A customer finds the appropriate service for their car problem.
    - **Type:** Informational
    - **Outcome:** The customer understands which services the garage offers and which service may be relevant to their problem.
@@ -110,9 +110,6 @@ people, time and budget. If you have nothing to add, write "None".
 
 </td></tr></table>
 
-- Test data only: made-up names, e-mail addresses and bookings, never real personal data.
-- No payments.
-- Free plans only.
 - Test data only: made-up names, e-mail addresses and bookings, never real personal data.
 - No payments.
 - Free plans only.
