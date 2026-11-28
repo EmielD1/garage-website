@@ -64,10 +64,10 @@ chat.
 
 </td></tr></table>
 
-- **Where we talk:** TODO: a chat, a call, in person
+- **Where we talk:** TODO: We use Microsoft Teams for project-related communication and sharing important information. WhatsApp is used for quick messages.
 - **How quickly we answer a teammate:** TODO:
 - **When and how long we meet:** TODO:
-- **Where we write down what we agreed:** TODO:
+- **Where we write down what we agreed:** TODO: We write down important agreements and decisions in Microsoft Teams so everyone can find them.
 
 ## How we decide
 
