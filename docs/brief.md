@@ -3,7 +3,7 @@
 The short description of your site: who it is for and what it does. Its reader has never seen your
 site, so write what a stranger needs to understand it. Keep the brief
 to one page; the details belong in `docs/requirements.md`.
-
+Written by: Emiel, Leon, Kobe, Timo, Mathis and Rune
 **How to fill in this file**
 
 - Write your own text in the lines and tables under each grey box.
@@ -30,10 +30,10 @@ made-up city library. It runs author talks, a reading group and story hours for 
 
 </td></tr></table>
 
-- **The promise:** TODO: [Your service] helps [who] to [do what], so that [what the organisation gets].
-- **Who runs it:** TODO:
-- **What it offers:** TODO:
-- **Real or made up:** TODO:
+- **The promise:** Garage Website helps car owners to find suitable car services and book an appointment, so that the garage can organise its work and serve its customers.
+- **Who runs it:** Garage Website is a fictional local car garage created by a group of university students.
+- **What it offers:** The website provides information about car maintenance and repairs and allows customers to book an appointment.
+- **Real or made up:** The garage is fictional and exists only as a university project.
 
 ## Its users
 
@@ -53,17 +53,17 @@ count them at two events.
 
 | Kind of user | What they come to do | What they have when it is done |
 | --- | --- | --- |
-| TODO: | TODO: | TODO: |
-| TODO: | TODO: | TODO: |
+| Car owner | Book an appointment for car maintenance or repairs. | An appointment booking and confirmation.|
+| Car owner | Find the appropriate service for their car problem. | Find the appropriate service for their car problem. |
 
 | Comparable site (its address) | Date we looked | One thing we learned from it |
 | --- | --- | --- |
-| TODO: | TODO: | TODO: |
-| TODO: | TODO: | TODO: |
+| Motor Design (motordesign.be) | 28 november 2026 | Clear information about car maintenance, repairs and appointments. |
+| Garage Deruddere (garage-deruddere.be) | 28 november 2026 | A useful example of how a garage presents its services and contact information. |
 
 | What we do not know yet | How and when we will find out |
 | --- | --- |
-| TODO: | TODO: |
+| Which information customers need before booking an appointment. | Ask two potential users to explore the website and give feedback. |
 
 ## The two tasks, ranked
 
@@ -88,17 +88,16 @@ tells the library how many people are coming.
 
 </td></tr></table>
 
-1. **Task 1 (the primary task):** TODO: the task, as an action
-   - **Type:** TODO: informational, transactional, application or platform
-   - **Outcome:** TODO: what the user has when it is done
-   - **When it fails:** TODO: what users lose
-2. **Task 2:** TODO: the task, as an action
-   - **Type:** TODO: informational, transactional, application or platform
-   - **Outcome:** TODO: what the user has when it is done
-   - **When it fails:** TODO: what users lose
+1. **Task 1 (the primary task):** A customer books an appointment for car maintenance.
+   - **Type:** Transactional
+   - **Outcome:** The customer successfully books an available time slot and receives confirmation.
+   - **When it fails:** TThe customer cannot reserve an appointment online and must contact the garage another way.
+2. **Task 2:** A customer finds the appropriate service for their car problem.
+   - **Type:** Informational
+   - **Outcome:** The customer understands which services the garage offers and which service may be relevant to their problem.
+   - **When it fails:** The customer cannot easily find the information they need and may contact the garage directly.
 
-**Why task 1 must work first:** TODO: two or three sentences
-
+**Why task 1 must work first:** Booking appointments is the main action customers should be able to complete on the website. It also allows the garage to organise its appointments. Information about services is important, but customers should be able to book an appointment successfully first.
 ## Constraints
 
 <table width="100%"><tr></tr><tr><td>
@@ -114,7 +113,10 @@ people, time and budget. If you have nothing to add, write "None".
 - Test data only: made-up names, e-mail addresses and bookings, never real personal data.
 - No payments.
 - Free plans only.
-- TODO: add any other constraint your project has, or write "None".
+- Test data only: made-up names, e-mail addresses and bookings, never real personal data.
+- No payments.
+- Free plans only.
+- The project is developed by university students with limited time and no budget for paid software. The garage is fictional, so no real appointments or repairs will take place.
 
 ## Not in this version
 
@@ -131,5 +133,5 @@ events are full more than a week before they take place.
 
 | Left out | Why | We look at it again when |
 | --- | --- | --- |
-| TODO: | TODO: | TODO: |
-| TODO: | TODO: | TODO: |
+| Online payments | The website only needs to support appointment bookings. | The project requires customers to pay online. |
+| Live vehicle diagnostics | This would require technical integrations that are outside the scope of this project. | The project is expanded with more advanced garage services.|
