@@ -65,8 +65,8 @@ chat.
 </td></tr></table>
 
 - **Where we talk:** TODO: We use Microsoft Teams for project-related communication and sharing important information. WhatsApp is used for quick messages.
-- **How quickly we answer a teammate:** TODO:
-- **When and how long we meet:** TODO:
+- **How quickly we answer a teammate:** TODO:As fast as possible
+- **When and how long we meet:** TODO: Every saturday from 9am-11am
 - **Where we write down what we agreed:** TODO: We write down important agreements and decisions in Microsoft Teams so everyone can find them.
 
 ## How we decide
@@ -81,10 +81,10 @@ team. If we cannot agree in one meeting, the role holder decides and writes a de
 
 </td></tr></table>
 
-- **What a role holder decides alone:** TODO:
-- **What needs the pair:** TODO:
-- **What needs the whole team:** TODO:
-- **How we settle a disagreement, and when we write a decision record:** TODO:
+- **What a role holder decides alone:** TODO:The role holder can make small decisions within their own role and informs the rest of the team.
+- **What needs the pair:** TODO:Decisions about a specific task or part of the website are discussed with the pair responsible for that task.
+- **What needs the whole team:** TODO: Important changes to the website, the user tasks or the project brief are discussed with the whole team.
+- **How we settle a disagreement, and when we write a decision record:** TODO:We discuss disagreements together and try to reach a compromise. Important decisions are written down in Microsoft Teams.
 
 ## When a pull request is done
 
@@ -109,7 +109,7 @@ The author of a pull request merges it when all of this is true:
 
 We ask a teammate for a review when the author is not sure of a change.
 
-TODO: keep this list or change it, add your own rules, then delete this line.
+TODO: 
 
 ## The AI note
 
@@ -129,7 +129,7 @@ Every pull request has the section *AI note: what I asked AI, and what I checked
 heading. The note is one or two lines and has two parts: *What I asked AI* and *What I checked*. When
 no AI tool was used, the note says "No AI used".
 
-- **How we check what an AI tool wrote before we use it:** TODO:
+- **How we check what an AI tool wrote before we use it:** TODO: We check AI-generated content ourselves, make sure it is correct and understand the changes before using them in our project.
 
 ## When someone stops contributing
 
@@ -145,9 +145,9 @@ and update this agreement.
 
 </td></tr></table>
 
-- **What counts as stopping for us:** TODO: for example no answer for a number of days, or a task left open after its date
-- **What the pair does first:** TODO:
-- **What the whole team does next:** TODO: with a new task and a date
+- **What counts as stopping for us:** TODO: A member does not respond for three working days or misses an agreed deadline without informing the team.
+- **What the pair does first:** TODO:The pair partner contacts the member directly and asks if there is a problem or if help is needed.
+- **What the whole team does next:** TODO: If the problem continues, the whole team discusses it and redistributes the tasks if necessary, with new deadlines.
 - **How we record what happened:** We change this agreement when we share the roles or the work again.
 
 ## Agreed by
@@ -157,6 +157,12 @@ and update this agreement.
 **Guidance.** Write one row per member: their first name or GitHub username, and the date they
 agreed. The date of the meeting where you wrote the agreement is fine. Add a row for each further
 member. Update the agreement when a member leaves or joins, or when the roles change.
+Emiel:28 november 2026
+Leon: 28 november 2026
+Rune: 28 november 2026
+Kobe: 28 november 2026
+Timo: 28 november 2026
+Mathis: 28 november 2026
 
 **Example:** Aya, 2 March 2026.
 
