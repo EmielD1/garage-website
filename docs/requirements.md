@@ -2,7 +2,7 @@
 
 What the site must do, written so that someone else can check it. Each requirement expresses a need of
 your users, and has a check that passes or fails on the live site. Add a row per requirement.
-
+Written by Emiel
 **How to fill in this file**
 
 - Write your own text in the lines and tables under each grey box.
@@ -44,5 +44,8 @@ is saved.
 
 | Id | Requirement | Serves | Check | Result |
 | --- | --- | --- | --- | --- |
-| R1 | TODO: who can do what, under which condition | TODO: the task or the need behind it | TODO: on the live site, what someone does, and what they must see | TODO: "passed" with the date you checked, or "not yet" with what is missing |
-| R2 | TODO: | TODO: | TODO: | TODO: |
+| R1 | A car owner can book an available appointment for car maintenance or repairs by providing their name and e-mail address. | Customers want to make an appointment easily, so that they know when they can bring their car to the garage. | The website provides an appointment booking form. | not yet: to be tested on the live site |
+| R2 | A car owner can find information about the maintenance and repair services offered by the garage. | Customers want to understand which services are available before contacting the garage. |The website provides information about the garage and its services. | not yet: to be tested on the live site|
+| R3 | A visitor can navigate the website and read its content using a keyboard. | Visitors who cannot or do not use a mouse need to access the website. | Open the live site and use only the Tab and Enter keys to navigate the main pages and links. The focus must be visible and the links must work. | not yet: to be tested on the live site |
+| R4 | A customer can submit an appointment booking without providing real personal information. | The project uses test data only and must protect users' privacy. | Open the booking form, enter made-up names and e-mail addresses, and submit a booking successfully. | not yet: to be tested on the live site |
+| R5 | A visitor can open the main pages without having to wait an unreasonable amount of time. | Visitors want to find information and book appointments without unnecessary delays. | The website contains accessible pages for its main content and tasks.
